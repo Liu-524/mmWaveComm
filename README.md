@@ -8,4 +8,4 @@ Errors: decoder can fail when no range is proposed or no enough bits are detecte
 
 
 #### Data
-The data are named in `0_?{number}_{distance}?_(noise)?` format. Number tells what number is being send. Distance is the distance between the sender and receiver. Noise tells if we add noise to the environment with additional moving corner reflector.
+The data are named in `0_?{number}_{distance}?_(noise)?` format. Number tells what number is being send. Distance is the distance between the sender and receiver. Noise tells if we add noise to the environment with additional moving corner reflector. If no distance is present, the distance is 2 meters.
